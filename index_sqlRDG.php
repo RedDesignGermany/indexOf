@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Dateiliste</title>
+    <title>IndexOfRDG</title>
     <link rel="stylesheet" href="fontawesome.css">
     <link rel="icon" href="http://localhost/favicon.ico" type="image/x-icon">
 
@@ -10,30 +10,38 @@
         body {
             font-family: Arial, sans-serif; text-align:center;
         }
+        a {
+          padding: 5px 15px;
+        }
+        a:hover {
+          color: #fff;
+          background: #b00808;
+          border-radius: 930px;
+          padding: 5px 15px;
+          transition: all 0.2s ease-in-out;
+        }
         .dir { background-color: #f0f0f0; }
         table { border-collapse: collapse; table-layout: auto; margin:0 auto;}
         th, td { border: 1px solid #ddd; padding: 8px; }
         th { background-color: #f2f2f2; }
 
-        /* Light Mode */
         @media (prefers-color-scheme: light) {
             body {
                 background-color: #ffffff;
                 color: #000000;
             }
+            a {color: #1e1e1e}
             th, td { border: 1px solid #ccc; }
             th { background-color: #f9f9f9; }
             .dir { background-color: #e0e0e0; }
         }
 
-        /* Dark Mode */
         @media (prefers-color-scheme: dark) {
             body {
                 background-color: #1e1e1e;
                 color: #ffffff;
             }
             a {color: #f2f2f2;}
-            a:hover {color:#b00808}
             th, td { border: 1px solid #444; }
             th { background-color: #333; }
             .dir { background-color: #2a2a2a; }

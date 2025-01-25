@@ -27,7 +27,7 @@
 
         @media (prefers-color-scheme: light) {
             body {
-                background-color: #ffffff;
+                background-color: #fafafa;
                 color: #000000;
             }
             a {color: #1e1e1e}

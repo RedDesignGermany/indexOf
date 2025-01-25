@@ -123,5 +123,11 @@ function filesize_format($bytes, $decimals = 2) {
 $directory = isset($_GET['dir']) ? realpath($_GET['dir']) : "/Users/exit/Sites"; // Startet im Root-Verzeichnis oder im angegebenen Verzeichnis
 listFilesAndDirs($directory);
 ?>
+    <footer style="text-align: center; margin-top: 20px;">
+        <?php
+            $currentYear = date("Y");
+            echo "&copy; $currentYear Red Design Germany";
+        ?>
+    </footer>
 </body>
 </html>
